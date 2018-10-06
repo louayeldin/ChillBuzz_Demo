@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#c3c3c3</color>
+    <color name="colorPrimaryDark">#3d3d3d</color>
+    <color name="colorAccent">#2fea6a</color>
+    <color name="clickable_link">#5890ff</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorBlack">#000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="background">#1f271f</color>
+    <color name="edittext_stroke">#434b3c</color>
+    <color name="editext_bg">#141e0e</color>
+    <color name="bottoncolor">#434b3c</color>
+    <color name="offwhite">#fffff0</color>
+</resources>

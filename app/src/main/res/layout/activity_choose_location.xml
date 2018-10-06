@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background"
+    android:gravity="center_horizontal|center_vertical"
+    tools:context=".ChooseLocation">
+
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/chooseCityHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Choose your country:"
+            android:textColor="@color/colorWhite"
+            android:textSize="22dp"
+            android:layout_marginBottom="20dp"/>
+
+        <TextView
+            android:id="@+id/choose_country"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Country:"
+            android:textColor="@color/colorWhite"
+            android:layout_marginBottom="5dp"/>
+        <Spinner
+            android:id="@+id/countries_dropdown_menu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:spinnerMode="dropdown"
+            android:background="@drawable/spinner_background"
+            android:layout_marginBottom="10dp">
+        </Spinner>
+
+        <TextView
+            android:id="@+id/choose_cities"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="City:"
+            android:textColor="@color/colorWhite"
+            android:layout_marginBottom="5dp"/>
+        <Spinner
+            android:id="@+id/cities_dropdown_menu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:spinnerMode="dropdown"
+            android:background="@drawable/spinner_background"
+            android:layout_marginBottom="10dp">
+        </Spinner>
+
+        <TextView
+            android:id="@+id/choose_showroom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Show Room:"
+            android:textColor="@color/colorWhite"
+            android:layout_marginBottom="5dp"/>
+        <Spinner
+            android:id="@+id/showroom_dropdown_menu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:spinnerMode="dropdown"
+            android:background="@drawable/spinner_background"
+            android:layout_marginBottom="10dp">
+        </Spinner>
+
+        <Button
+            android:id="@+id/nxt_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bottonshape"
+            android:text="Next"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
